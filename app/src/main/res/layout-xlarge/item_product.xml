@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/icon_product_placeholde" />
+
+        <TextView
+            android:id="@+id/txt_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginTop"
+            android:text="@string/product_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_xxx"
+            android:textColor="@color/green"
+            android:textSize="@dimen/txt_size2" />
+
+        <TextView
+            android:id="@+id/txt_product_vendor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="2dp"
+            android:text="@string/vender_name"
+            android:textSize="@dimen/txt_size2" />
+
+        <TextView
+            android:id="@+id/txt_product_vendor_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vender_address"
+            android:textSize="@dimen/txt_size2" />
+
+        <TextView
+            android:id="@+id/txtAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/btnText"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size1" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

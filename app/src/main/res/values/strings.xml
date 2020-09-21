@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_name">Product Name</string>
+    <string name="image">image</string>
+    <string name="vender_address">Vender Address</string>
+    <string name="vender_name">Vender Name</string>
+    <string name="price_xxx">Price : XXX</string>
+    <string name="btnText">Add to Cart</string>
+    <string name="btnRemove">Remove From Cart</string>
+    <string name="no_data_available">No record found</string>
+    <string name="no_item_cart">No product in cart</string>
+</resources>

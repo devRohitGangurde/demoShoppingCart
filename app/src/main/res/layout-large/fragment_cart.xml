@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:background="@color/green"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Total Price : 0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size1"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"/>
+
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:text="@string/no_item_cart" />
+
+
+</RelativeLayout>

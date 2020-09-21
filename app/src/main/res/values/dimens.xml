@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size1">18sp</dimen>
+    <dimen name="txt_size2">16sp</dimen>
+    <dimen name="marginTop">6sp</dimen>
+    <dimen name="marginBottom">3sp</dimen>
+
+</resources>
